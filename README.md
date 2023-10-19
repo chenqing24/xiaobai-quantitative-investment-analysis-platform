@@ -1,8 +1,8 @@
 # xiaobai-quantitative-investment-analysis-platform
 
-看书后自己实现的小白量化投资分析平台的实现。
-优化部分过期代码，补充了注释。
-Mac，Python 3.11，Vscode下运行测试通过。
+看书后自己实现的小白量化投资分析平台的实现。  
+优化部分过期代码，补充了注释。  
+Mac，Python 3.11，Vscode下运行测试通过。  
 
 ## 参考
 
