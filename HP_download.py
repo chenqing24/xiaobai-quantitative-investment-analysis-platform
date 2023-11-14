@@ -6,9 +6,9 @@
 
 import os
 import time
+from dotenv import load_dotenv
 import tushare as ts
 import HP_global as g
-from dotenv import load_dotenv
 from HP_set import *
 
 
