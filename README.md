@@ -35,3 +35,13 @@ Mac，Python 3.11，Vscode下运行测试通过。
 10. HP_edit.py:      策略编辑器
 11. HP_MainPage.py: 总框架
 12. HP_main.py:     主程序入口
+
+
+## 安装
+
+1. 安装依赖库`pip install -r requirements.txt`
+2. 运行
+
+### 注意事项
+
+1. 依赖库demjson不支持高版本setuptools，需要降级`pip install --upgrade setuptools==57.5.0`后安装
