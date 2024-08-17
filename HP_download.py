@@ -41,11 +41,13 @@ pro = ts.pro_api()
 def download2csv(code_name, start_date=start_date):
     # 查询日线数据
     data_df = pro.daily(ts_code=code_name, start_date=start_date)
-    print(data_df)
+    if g.isDbug:
+        print(data_df)
 
     # 下载后的文件名格式 股票代码_daily.csv
     _csv_filename = os.path.join(g.datapath, code_name+'_daily.csv')
-    print(_csv_filename)
+    if g.isDbug:
+        print(_csv_filename)
 
     # 执行写
     data_df.to_csv(_csv_filename)

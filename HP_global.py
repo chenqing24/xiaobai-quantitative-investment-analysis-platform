@@ -39,3 +39,7 @@ global utg # 文字颜色
 global uvg # 成交量颜色
 
 # TODO 控件名
+
+
+# 调试开关
+global isDebug

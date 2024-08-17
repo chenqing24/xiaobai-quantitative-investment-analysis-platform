@@ -33,4 +33,10 @@ g.ufg = 'b'
 g.utg = 'b'
 g.uvg = '#1E90FF'
 
+
 # TODO 其它全局配置
+
+
+# 调试输出开关
+g.isDebug = True
+
