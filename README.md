@@ -1,3 +1,5 @@
+
+
 # xiaobai-quantitative-investment-analysis-platform
 
 看书后自己实现的小白量化投资分析平台的实现。  
@@ -40,7 +42,7 @@ Mac，Python 3.11，Vscode下运行测试通过。
 ## 安装
 
 1. 安装依赖库`pip install -r requirements.txt`
-2. 运行
+2. 运行（下载数据前需配置`.env`中的`TUSHARE_TOKEN`、`TS_CODE_NAMES`、`START_DATE`）
 
 ### 注意事项
 
